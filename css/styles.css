@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:rgba(252, 235, 0, 0.733);
+    color: rgb(247, 239, 239);
+  }
+  
+  .mariobros {
+    position: relative;
+    animation: mario 10s infinite;
+  }
+  
+  @keyframes mario {
+    0% {top:567px; left: -130px}
+    10% {top:567px; left: 150px}
+    15% {top:515px; left: 150px}
+    20% {top:575px; left: 150px}
+    25% {top:567px; left: 737px}
+    30% {top:520px; left: 737px}
+    35% {top:575px; left: 737px}
+    36% {top:575px; left: 870px}
+    40% {top:500px; left: 970px}
+    42% {top:575px; left: 1000px}
+    45% {top:575px; left: 1230px}
+  }
+  
